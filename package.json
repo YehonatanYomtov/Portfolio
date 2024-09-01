@@ -4,7 +4,7 @@
   "description": "a project representing me and my skills",
   "main": "index.html",
   "scripts": {
-    "build-css": "tailwindcss -i ./src/input.css -o ./public/main.css --watch"
+    "build": "postcss src/styles.css -o public/output.css"
   },
   "author": "Yehonatan Yomtov",
   "license": "ISC",
